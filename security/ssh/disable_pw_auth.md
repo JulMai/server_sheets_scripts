@@ -8,7 +8,7 @@ sudo vim /etc/ssh/sshd_config
 
 Change the value for PasswordAuthentication:
 ~~~
-PermitRootLogin no
+PasswordAuthentication no
 ~~~
 
 Save File and reload ssh service:
